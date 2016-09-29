@@ -12,3 +12,7 @@ Later entry"
 Sept 29 3:44pm
 Created Changelog for project.
 -Spencer
+
+Sept 29 4:30pm
+Created feature branch and fixed issue #1. Created controller and index function to be used.
+-Spencer
