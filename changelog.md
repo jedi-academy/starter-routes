@@ -16,3 +16,7 @@ Created Changelog for project.
 Sept 29 4:30pm
 Created feature branch and fixed issue #1. Created controller and index function to be used.
 -Spencer
+
+Sept 29 4:40pm
+Created feature branch and fixed issue #4. Created wildcard routing rule to use method Welcome::Shucks().
+-Jason
