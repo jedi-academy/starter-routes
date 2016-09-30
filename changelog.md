@@ -33,6 +33,11 @@ Sept 29 5:08pm
 Created feature branch and fixed issue #2. Created controller and index function to be used.
 -Francis
 
+
 Sept 29 5:09pm
 Created feature branch and fixed issue #5. Created wildcard routing rule to use method first::gimme($id).
 -Jason
+
+Sept 29 5:48pm
+Created feature branch and fixed issue #9. Made the hook work so that all 4 char long words get changed to asterixes.
+-Spencer
