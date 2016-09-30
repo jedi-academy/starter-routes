@@ -47,3 +47,6 @@ Created feature branch and fixed issue #8. Created Wisdom controller with bingo 
 for comp + digits (case insensitive).
 -Francis
 
+Sept 29 6:19pm
+Created feature branch and fixed issue #6. Added route callback for bottom left image and 'dunno' url.
+-Francis
