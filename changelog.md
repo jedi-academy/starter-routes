@@ -36,3 +36,8 @@ Created feature branch and fixed issue #2. Created controller and index function
 Sept 29 5:09pm
 Created feature branch and fixed issue #5. Created wildcard routing rule to use method first::gimme($id).
 -Jason
+
+Sept 29 5:58pm
+Created feature branch and fixed issue #8. Created Wisdom controller with bingo function. Also added a regular expression routing 
+for comp + digits (case insensitive).
+-Francis

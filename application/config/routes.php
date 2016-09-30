@@ -55,6 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['first/'] = 'first/index';
 $route['([a-zA-Z]{4})/bingo'] = "bingo/index";
+$route['(?i)(comp[0-9]+\/[a-zA-Z0-9]+)'] = "Wisdom/bingo";
 $route['sleep'] = "first/zzz";
 $route['lock/(:any)/(:any)'] = "welcome/shucks/$1";
 $route['show/(:num)'] = "first/gimme/$1";
