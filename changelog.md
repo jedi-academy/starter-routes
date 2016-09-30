@@ -41,3 +41,9 @@ Created feature branch and fixed issue #5. Created wildcard routing rule to use 
 Sept 29 5:48pm
 Created feature branch and fixed issue #9. Made the hook work so that all 4 char long words get changed to asterixes.
 -Spencer
+
+Sept 29 5:58pm
+Created feature branch and fixed issue #8. Created Wisdom controller with bingo function. Also added a regular expression routing 
+for comp + digits (case insensitive).
+-Francis
+
