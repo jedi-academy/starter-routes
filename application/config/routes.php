@@ -54,5 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['first/'] = 'first/index';
+$route['([a-zA-Z]{4})/bingo'] = "bingo/index";
 
 $route['lock/(:any)/(:any)'] = "welcome/shucks/$1";
