@@ -21,5 +21,12 @@ Sept 29 4:40pm
 Created feature branch and fixed issue #4. Created wildcard routing rule to use method Welcome::Shucks().
 -Jason
 
+Sept 29 4:57pm
+Created feature branch and fixed issue #3. Created wildcard routing rule to use method first::zzz().
+-Jason
+
 Sept 29 5:01pm
 Created feature branch and fixed issue #7. Created controller and index function to be used.
+-Spencer
+
+
