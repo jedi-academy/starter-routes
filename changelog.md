@@ -29,4 +29,8 @@ Sept 29 5:01pm
 Created feature branch and fixed issue #7. Created controller and index function to be used.
 -Spencer
 
+Sept 29 5:08pm
+Created feature branch and fixed issue #2. Created controller and index function to be used.
+-Francis
+
 
