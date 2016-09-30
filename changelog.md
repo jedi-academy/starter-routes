@@ -29,4 +29,7 @@ Sept 29 5:01pm
 Created feature branch and fixed issue #7. Created controller and index function to be used.
 -Spencer
 
+Sept 29 5:48pm
+Created feature branch and fixed issue #9. Made the hook work so that all 4 char long words get changed to asterixes.
+-Spencer
 
