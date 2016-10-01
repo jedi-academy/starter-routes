@@ -26,4 +26,16 @@ class Welcome extends Application
 		$this->render();
 	}
 
+        public function zzz()
+	{
+		// this is the view we want shown
+		$this->data['pagebody'] = 'justone';
+
+		// get first quote
+		$source = $this->quotes->get('1');
+                
+		$this->data = array_merge($this->data, $source);
+
+		$this->render();
+	}
 }
