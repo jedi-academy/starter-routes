@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class First extends Application
+class Wise extends Application
 {
 
 	function __construct()
@@ -19,7 +19,7 @@ class First extends Application
 		$this->data['pagebody'] = 'justone';
 
 		// get first quote
-		$source = $this->quotes->get(6);
+		$source = $this->quotes->last();
                 
 		$this->data = array_merge($this->data, $source);
 
