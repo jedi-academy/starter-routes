@@ -54,10 +54,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['sleep'] = 'First/zzz';
 $route['lock/(:any)/(:any)'] = 'Welcome/shucks';
+//slight change
 
 //how does this work with $1?
 $route['show/(:num)'] = 'First/gimme/$1';
 $route['comp([0-9]{4})/(:any)'] = 'Wise/bingo';
+$route['([a-zA-z]{4})/bingo'] = 'Bingo/index';
 $route['dunno'] = function() {
 	$source = './pix/610x-150x150.jpg'; // an image you provide
 	// set the mime type for that image
