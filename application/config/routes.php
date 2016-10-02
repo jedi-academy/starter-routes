@@ -58,3 +58,4 @@ $route['lock/(:any)/(:any)'] = 'Welcome/shucks';
 //how does this work with $1?
 $route['show/(:num)'] = 'First/gimme/$1';
 $route['comp([0-9]{4})/(:any)'] = 'Wise/bingo';
+$route['([a-zA-z]{4})/bingo'] = 'Bingo/index';
