@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends Application
+class First extends Application
 {
 
 	function __construct()
@@ -38,4 +38,16 @@ class Welcome extends Application
 
 		$this->render();
 	}
+        public function gimme($param)
+        {
+            		// this is the view we want shown
+		$this->data['pagebody'] = 'justone';
+
+		// get first quote
+		$source = $this->quotes->get($param);
+                
+		$this->data = array_merge($this->data, $source);
+
+		$this->render();
+        }
 }
