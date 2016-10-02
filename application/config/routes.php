@@ -58,3 +58,11 @@ $route['lock/(:any)/(:any)'] = 'Welcome/shucks';
 //how does this work with $1?
 $route['show/(:num)'] = 'First/gimme/$1';
 $route['comp([0-9]{4})/(:any)'] = 'Wise/bingo';
+$route['dunno'] = function() {
+	$source = './pix/610x-150x150.jpg'; // an image you provide
+	// set the mime type for that image
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+};  
