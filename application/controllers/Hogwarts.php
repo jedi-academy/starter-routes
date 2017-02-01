@@ -27,7 +27,7 @@ class Hogwarts extends Application {
     }
 
     public function shucks() {
-        
+
         // loads justone
         $this->data['pagebody'] = 'justone';
 
@@ -35,6 +35,19 @@ class Hogwarts extends Application {
         $record = $this->quotes->get(2);
 
         // merge the records to data array
+        $this->data = array_merge($this->data, $record);
+
+        $this->render();
+    }
+
+    public function random() {
+        $this->data['pagebody'] = 'justone';
+
+        $source = $this->quotes->all();
+        $authors = array();
+
+        $record = $source[rand(0, 6)];
+        
         $this->data = array_merge($this->data, $record);
 
         $this->render();
