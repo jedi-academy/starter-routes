@@ -11,7 +11,7 @@
  *
  * @author Jake
  */
-class Welcome extends Application {
+class Hogwarts extends Application {
     
     function __construct() {
         parent::__construct();

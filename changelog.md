@@ -114,3 +114,17 @@ Release Date: Jan 31, 2017
  - Wise.php - created a Wise controller (Michael)
 - config
  - routes.php - added a route to /comp4711/wisdom (Michael)
+
+
+
+# *Version 1.0*
+Release Date: Jan 31, 2017
+
+- Closes #9 (default controller)
+
+### Updated Components 
+- controllers 
+ - Hogwarts.php - renamed a Welcome to Hogwarts controller (Michael)
+- config
+ - routes.php - renamed a default controller to hogwarts (Michael)
+ - routes.php - renamed 'welcome/shucks' to 'hogwarts/shucks' (Michael)
