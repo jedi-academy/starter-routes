@@ -58,3 +58,6 @@ $route['sleep'] = 'first/zzz';
 
 // issue #4
 $route['lock/.*/.*'] = 'welcome/shucks';
+
+// issue #5
+$route['show/(:num)'] = 'first/gimme/$1';

@@ -36,12 +36,25 @@ class First extends Application {
         // loads justone
         $this->data['pagebody'] = 'justone';
         
-        // gets first low
+        // gets first quote
         $record = $this->quotes->first();
         
         // merge the records to data array
         $this->data = array_merge($this->data, $record);
         
+        $this->render();
+    }
+    
+    public function gimme($id){
+        // loads justone
+        $this->data['pagebody'] = 'justone';	
+        
+        // gets quote of id
+	$source = $this->quotes->get($id);
+        
+        // merge the records to data array
+	$this->data = array_merge($this->data, $source);
+	
         $this->render();
     }
     

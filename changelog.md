@@ -60,3 +60,16 @@ Release Date: Jan 31, 2017
  - Welcome.php - added shucks function (Jake)
 - config
  - routes.php - added a route to to welcome/shucks (Jake)
+
+
+
+# *Version 0.6*
+Release Date: Jan 31, 2017
+
+- Closes #5 (show)
+
+### Updated Components 
+- controllers 
+ - First.php - added gimme function (Karan)
+- config
+ - routes.php - added a route to first/gimme (Karan)
