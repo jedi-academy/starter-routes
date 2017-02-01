@@ -53,3 +53,4 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['/first']='application/controllers/First::index()';
+$route['/last']='application/controllers/last/Welcome::index()';
