@@ -10,6 +10,9 @@ Jonathan De Maeseneer
 Nicholas Nelson
 
 ### Added
+- Finished #5 (Lockemup) task
+
+### Added
 - Finished #7 (Bingo) task
 
 ### Added
