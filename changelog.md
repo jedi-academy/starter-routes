@@ -73,3 +73,5 @@ Release Date: Jan 31, 2017
  - First.php - added gimme function (Karan)
 - config
  - routes.php - added a route to first/gimme (Karan)
+- issue
+ - merged to the team repo instead of my own (Karan)  
