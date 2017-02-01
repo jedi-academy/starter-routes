@@ -128,3 +128,16 @@ Release Date: Jan 31, 2017
 - config
  - routes.php - renamed a default controller to hogwarts (Michael)
  - routes.php - renamed 'welcome/shucks' to 'hogwarts/shucks' (Michael)
+
+
+
+# *Version 1.1*
+Release Date: Jan 31, 2017
+
+- Closes #10 (error controller)
+
+### Updated Components 
+- controllers 
+ - Hogwarts.php - added random function to Hogwarts controller (Michael)
+- config
+ - routes.php - changed route ['404_override'] from ' ' to 'hogwarts/random' (Michael)
