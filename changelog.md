@@ -9,7 +9,7 @@ Release Date: Jan 31, 2017
 
 - Created changelog, initial commit
 
-## *Version 0.1*
+## *Version 0.2*
 Release Date: Jan 31, 2017
 
 - Closes #1
@@ -19,6 +19,17 @@ Release Date: Jan 31, 2017
  - First.php - created and added index (Jake)
 - models
  - Quotes.php - edited to get only first quote (Jake)
+
+## *Version 0.3*
+Release Date: Jan 31, 2017
+
+- Closes #2
+
+# Updated Components 
+- controllers 
+ - Last.php - created and added index (Jake)
+- models
+ - Quotes.php - edited to get only last quote (Jake)
  
 
 
