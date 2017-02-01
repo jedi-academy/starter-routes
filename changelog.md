@@ -74,4 +74,17 @@ Release Date: Jan 31, 2017
 - config
  - routes.php - added a route to first/gimme (Karan)
 - issue
- - merged to the team repo instead of my own (Karan)  
+ - merged to the team repo instead of my own (Karan)
+
+
+
+# *Version 0.7*
+Release Date: Jan 31, 2017
+
+- Closes #6 (dunno)
+
+### Updated Components 
+- config
+ - routes.php - added a route to data/surprise.jpg (Karan)
+- data
+ - added surprise.jpg image 
