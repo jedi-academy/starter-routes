@@ -87,4 +87,17 @@ Release Date: Jan 31, 2017
 - config
  - routes.php - added a route to data/surprise.jpg (Karan)
 - data
- - added surprise.jpg image 
+ - added surprise.jpg image
+
+
+
+# *Version 0.8*
+Release Date: Jan 31, 2017
+
+- Closes #7 (bingo)
+
+### Updated Components 
+- controllers 
+ - Bingo.php - created a Bingo controller (Karan)
+- config
+ - routes.php - added a route to /bingo (Karan)
