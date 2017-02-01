@@ -22,7 +22,7 @@ class Welcome extends Application {
         // loads justone
         $this->data['pagebody'] = 'justone';
         
-        // gets first low
+        // gets last low
         $record = $this->quotes->last();
         
         // merge the records to data array

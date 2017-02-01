@@ -31,4 +31,18 @@ class First extends Application {
         $this->render();
     }
     
+    public function zzz(){
+        
+        // loads justone
+        $this->data['pagebody'] = 'justone';
+        
+        // gets first low
+        $record = $this->quotes->first();
+        
+        // merge the records to data array
+        $this->data = array_merge($this->data, $record);
+        
+        $this->render();
+    }
+    
 }
