@@ -61,3 +61,13 @@ $route['lock/.*/.*'] = 'welcome/shucks';
 
 // issue #5
 $route['show/(:num)'] = 'first/gimme/$1';
+
+// issue #6
+$route['dunno'] = function() {
+	$source = '../data/surprise.jpg'; // an image you provide, outside of "public"!
+	// set the mime type for that image (jpeg, png, etc)
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+};
