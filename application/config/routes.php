@@ -74,3 +74,6 @@ $route['dunno'] = function() {
 
 // issue #7
 $route['^[a-zA-Z]{4}/bingo'] = 'bingo';
+
+// issue #8
+$route['comp(\d+)/(.*)'] = 'wise/bingo';
