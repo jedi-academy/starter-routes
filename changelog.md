@@ -13,7 +13,7 @@ Release Date: Jan 31, 2017
 # *Version 0.2*
 Release Date: Jan 31, 2017
 
-- Closes #1
+- Closes #1 (first)
 
 ## Updated Components 
 - controllers 
@@ -25,7 +25,7 @@ Release Date: Jan 31, 2017
 # *Version 0.3*
 Release Date: Jan 31, 2017
 
-- Closes #2
+- Closes #2 (last)
 
 ## Updated Components 
 - controllers 
@@ -37,7 +37,7 @@ Release Date: Jan 31, 2017
 # *Version 0.4*
 Release Date: Jan 31, 2017
 
-- Closes #3
+- Closes #3 (sleep)
 
 ## Updated Components 
 - controllers 
