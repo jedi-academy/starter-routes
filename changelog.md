@@ -101,3 +101,16 @@ Release Date: Jan 31, 2017
  - Bingo.php - created a Bingo controller (Karan)
 - config
  - routes.php - added a route to /bingo (Karan)
+
+
+
+# *Version 0.9*
+Release Date: Jan 31, 2017
+
+- Closes #8 (wisdom)
+
+### Updated Components 
+- controllers 
+ - Wise.php - created a Wise controller (Michael)
+- config
+ - routes.php - added a route to /comp4711/wisdom (Michael)
