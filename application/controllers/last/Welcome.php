@@ -19,12 +19,10 @@
 	}
      public function index(){
        $this->data['pagebody'] = 'justone';
-
-		// build the list of authors, to pass on to our view
-		$record = $this->quotes->last();
-		
-		$this->data = array_merge($this->data, $record);
-
-		$this->render();
+       $source = $this->quotes->get(6);
+       $this->data['mug'] = $source['mug'];
+       $this->data['who'] = $source['who'];
+       $this->data['what'] = $source['what'];
+       $this->render();
      }
 }
