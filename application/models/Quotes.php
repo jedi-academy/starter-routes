@@ -40,10 +40,7 @@ class Quotes extends CI_Model {
 				return $record;
 		return null;
 	}
-        public function first(){
-            return $this->data[0];
-        }
-
+      
         // retrieve all of the quotes
 	public function all()
 	{
