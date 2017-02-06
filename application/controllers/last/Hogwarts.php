@@ -11,7 +11,7 @@
  *
  * @author ljf92
  */
- class Welcome extends Application {
+ class Hogwart extends Application {
     //put your code here
      function __construct()
 	{
