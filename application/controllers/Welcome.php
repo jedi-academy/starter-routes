@@ -40,6 +40,6 @@ class Welcome extends Application
         $this->data['who'] = $source['who'];
         $this->data['what'] = $source['what'];
         $this->render();
-		
+        }
 	}
 }

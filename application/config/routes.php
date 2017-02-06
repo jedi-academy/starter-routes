@@ -65,3 +65,12 @@ $route['lock/em/up'] = 'welcome/shucks';
 //$route['show/3'] = 'first/gimme/3';
 $route['show/(:num)'] = 'first/gimme/$1';
 
+$route['dunno'] = function() {
+    $source = '../data/surprise.jpg';
+    header("Content-type: image/jpeg");
+    header('Content-Disposition: inline');
+    readfile($source); 
+    die(); 
+};
+
+$route['^comp4711/.*'] = 'wise/bingo';
