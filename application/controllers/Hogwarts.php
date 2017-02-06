@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends Application
+class Hogwart extends Application
 {
 
 	function __construct()
@@ -42,4 +42,3 @@ class Welcome extends Application
         $this->render();
         }
 	}
-}
