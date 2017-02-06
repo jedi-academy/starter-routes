@@ -39,13 +39,6 @@ class Welcome extends Application
         $this->data['mug'] = $source['mug'];
         $this->data['who'] = $source['who'];
         $this->data['what'] = $source['what'];
-        $this->render()
-        public function shucks() {
-                $this->data['pagebody'] = 'justone';
-                $source = $this->quotes->get(2);
-                $this->data['mug'] = $source['mug'];
-                $this->data['who'] = $source['who'];
-                $this->data['what'] = $source['what'];
-                $this->render();
+        $this->render();
     }
 }
