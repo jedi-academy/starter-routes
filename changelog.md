@@ -4,16 +4,11 @@ Team membership:  Jake (Captain) & Karan (first mate) & Michael (second mate)
 Team conventions: Allman notation, markdown for changelog  
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
-# *Version 0.1*
-Release Date: Jan 31, 2017
-
+# *Version 0.1* (Jan 31, 2017)
 - Created changelog, initial commit
 
 
-
-# *Version 0.2*
-Release Date: Jan 31, 2017
-
+# *Version 0.2* (Jan 31, 2017)
 - Closes #1 (first)
 
 ### Updated Components 
@@ -24,8 +19,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.3*
-Release Date: Jan 31, 2017
+# *Version 0.3* (Jan 31, 2017)
 
 - Closes #2 (last)
 
@@ -37,8 +31,7 @@ Release Date: Jan 31, 2017
  
 
 
-# *Version 0.4*
-Release Date: Jan 31, 2017
+# *Version 0.4* (Jan 31, 2017)
 
 - Closes #3 (sleep)
 
@@ -50,8 +43,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.5*
-Release Date: Jan 31, 2017
+# *Version 0.5* (Jan 31, 2017)
 
 - Closes #4 (lockemup)
 
@@ -63,8 +55,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.6*
-Release Date: Jan 31, 2017
+# *Version 0.6* (Jan 31, 2017)
 
 - Closes #5 (show)
 
@@ -78,8 +69,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.7*
-Release Date: Jan 31, 2017
+# *Version 0.7* (Jan 31, 2017)
 
 - Closes #6 (dunno)
 
@@ -91,8 +81,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.8*
-Release Date: Jan 31, 2017
+# *Version 0.8* (Jan 31, 2017)
 
 - Closes #7 (bingo)
 
@@ -104,8 +93,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 0.9*
-Release Date: Jan 31, 2017
+# *Version 0.9* (Jan 31, 2017)
 
 - Closes #8 (wisdom)
 
@@ -117,8 +105,7 @@ Release Date: Jan 31, 2017
 
 
 
-# *Version 1.0*
-Release Date: Jan 31, 2017
+# *Version 1.0* (Jan 31, 2017)
 
 - Closes #9 (default controller)
 
@@ -132,12 +119,7 @@ Release Date: Jan 31, 2017
 
 
 # *Version 1.1*
-Release Date: Jan 31, 2017
-
-- Closes #10 (error controller)
 
 ### Updated Components 
-- controllers 
- - Hogwarts.php - added random function to Hogwarts controller (Michael)
-- config
- - routes.php - changed route ['404_override'] from ' ' to 'hogwarts/random' (Michael)
+
+- Reformatted Readme.md
