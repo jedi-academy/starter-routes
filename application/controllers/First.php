@@ -11,51 +11,56 @@
  *
  * @author Jake
  */
-class First extends Application {
-    
-    function __construct() {
+class First extends Application
+{
+
+    function __construct()
+    {
         parent::__construct();
     }
-    
-    public function index(){
-        
+
+    public function index()
+    {
+
         // loads justone
         $this->data['pagebody'] = 'justone';
-        
+
         // gets first low
         $record = $this->quotes->first();
-        
+
         // merge the records to data array
         $this->data = array_merge($this->data, $record);
-        
+
         $this->render();
     }
-    
-    public function zzz(){
-        
+
+    public function zzz()
+    {
+
         // loads justone
         $this->data['pagebody'] = 'justone';
-        
+
         // gets first quote
         $record = $this->quotes->first();
-        
+
         // merge the records to data array
         $this->data = array_merge($this->data, $record);
-        
+
         $this->render();
     }
-    
-    public function gimme($id){
+
+    public function gimme($id)
+    {
         // loads justone
-        $this->data['pagebody'] = 'justone';	
-        
+        $this->data['pagebody'] = 'justone';
+
         // gets quote of id
-	$source = $this->quotes->get($id);
-        
+        $source = $this->quotes->get($id);
+
         // merge the records to data array
-	$this->data = array_merge($this->data, $source);
-	
+        $this->data = array_merge($this->data, $source);
+
         $this->render();
     }
-    
+
 }
