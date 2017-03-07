@@ -2,13 +2,16 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Bingo extends Application {
+class Bingo extends Application
+{
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
     }
 
-    public function index() {
+    public function index()
+    {
         // loads justone
         $this->data['pagebody'] = 'justone';
 

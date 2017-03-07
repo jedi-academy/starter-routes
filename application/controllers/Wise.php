@@ -2,13 +2,16 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Wise extends Application {
+class Wise extends Application
+{
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
     }
 
-    public function index() {
+    public function index()
+    {
         // loads justone
         $this->data['pagebody'] = 'justone';
 
@@ -21,7 +24,8 @@ class Wise extends Application {
         $this->render();
     }
 
-    public function bingo() {
+    public function bingo()
+    {
         $this->data['pagebody'] = 'justone';
         $source = $this->quotes->get(6);
         $this->data = array_merge($this->data, $source);
